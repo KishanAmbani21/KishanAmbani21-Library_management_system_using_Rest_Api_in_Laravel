@@ -1,0 +1,67 @@
+<?php
+return [
+    'user' => [
+        'created_success' => 'User created successfully',
+        'creation_failed' => 'User creation failed',
+        'update_success' => 'User updated successfully',
+        'update_failed' => 'User update failed',
+        'not_found' => 'User not found',
+        'delete_success' => 'User deleted successfully',
+        'delete_failed' => 'User deletion failed',
+        'retrieve_success' => 'Users retrieved successfully',
+        'retrieve_failed' => 'Failed to retrieve users',
+        'search_success' => 'User search successful',
+        'search_failed' => 'User search failed',
+        'query_required' => 'Search query is required',
+        'not_found' => 'No users found',
+        'unauthorized' => "unauthorized",
+    ],
+
+    'auth' => [
+        'login_success' => 'Login successful',
+        'login_failed' => 'Login failed',
+        'credentials_incorrect' => 'Incorrect credentials',
+        'logout_success' => 'Logout successful',
+        'logout_failed' => 'Logout failed',
+        'unauthenticated' => 'User is not authenticated',
+    ],
+
+    'book' => [
+        'created' => 'Book created successfully',
+        'creation_failed' => 'Book creation failed',
+        'updated' => 'Book updated successfully',
+        'update_failed' => 'Book update failed',
+        'deleted' => 'Book deleted successfully',
+        'deletion_failed' => 'Book deletion failed',
+        'retrieved' => 'Books retrieved successfully',
+        'retrieval_failed' => 'Failed to retrieve books',
+        'invalid_status' => 'Invalid book status provided',
+        'query_required' => 'Search query is required',
+        'search_failed' => 'Book search failed',
+        'import_success' => 'Books imported successfully',
+        'import_failed' => 'Failed to import books',
+        'exported' => 'Books exported successfully',
+        'export_failed' => 'Failed to export books',
+        'not_found' => 'Book not found',
+        'query_required' => 'A search query is required to perform this operation.',
+
+    ],
+
+    'borrow' => [
+        'limit_reached' => 'You have reached the maximum borrow limit.',
+        'already_exists' => 'This book has already been borrowed',
+        'book_not_available' => 'The book is not available for borrowing',
+        'created_success' => 'The book has been borrowed successfully.',
+        'creation_failed' => 'There was an issue creating the borrow record.',
+        'retrieve_success' => 'Borrow records retrieved successfully.',
+        'retrieve_failed' => 'There was an error retrieving the borrow records.',
+        'return_success' => 'The book has been returned successfully.',
+        'return_failed' => 'There was an error returning the book.',
+        'not_found' => 'The borrow record could not be found.',
+        'paypenalty_success' => 'Penalty payment successful.',
+        'paypenalty_failed' => 'There was an error processing the penalty payment.',
+        'book_already_borrowed' => 'This book has already been borrowed',
+        'not_borrow' => 'You have not borrowed this book.',
+        'already_returned' => 'Already returned this book.'
+    ],
+];
